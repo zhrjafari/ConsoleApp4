@@ -9,8 +9,8 @@ namespace project
         public static void Main()
         {
             Console.WriteLine("enter num1 & num2");
-            double num1 = Convert.ToInt32(Console.ReadLine());
-            double num2 = Convert.ToInt32(Console.ReadLine());
+            double num1 = Convert.Todouble(Console.ReadLine());
+            double num2 = Convert.Todouble(Console.ReadLine());
             Calc(num1,num2);
         }//end main
 
